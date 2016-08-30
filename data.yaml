@@ -1,0 +1,253 @@
+education:
+  - title: Ph.D. in computational science
+    employer: ETH Zürich
+    location: Zürich, Switzerland
+    dates: Sep 2009 to Nov 2013
+    description: >
+      Solving high-dimensional kinetic transport equations, attempting to
+      bridging the “curse of dimensionality”. Particular focus on shearlet
+      frames and the Boltzmann equation.
+  - title: MSc in industrial mathematics
+    employer: NTNU
+    location: Trondheim, Norway
+    dates: Aug 2004 to Jun 2009
+    description: >
+      Specialization in numerical analysis and differential geometry.
+experience:
+  - title: Research Scientist
+    employer: SINTEF Applied Mathematics
+    location: Trondheim, Norway
+    dates: May 2015 to now
+    description: >
+      Project-based work on a variety of things (see own section). Mostly
+      involved in large-scale parallel simulations using the isogeometric
+      analysis variety of finite element methods.
+  - title: Associate professor
+    employer: NTNU
+    location: Trondheim, Norway
+    dates: Jan 2016 to Jun 2016
+    description: >
+      Part-time faculty position, lecturer of the TMA4280 \emph{Introduction to
+      supercomputing} course.
+  - title: Ph.D. studies
+    employer: ETH Zürich
+    location: Zürich, Switzerland
+    dates: Sep 2009 to Nov 2013
+    description: >
+      Solving high-dimensional kinetic transport equations, attempting to bridge
+      the “curse of dimensionality”. Implementation work in Matlab, Python and
+      C++. Includes a 40\% teaching load.
+  - title: Software engineer
+    employer: Jeeves ERP
+    location: Trondheim, Norway
+    dates: Summer 2009
+    description: >
+      Implemented a translation tool built on Google Translate, which can read
+      and write a number of different formats (such as Microsoft Word and
+      database tables), with some facilities for correcting erroneous
+      translations and learning.
+  - title: Software engineer
+    employer: Yahoo! Technologies
+    location: Trondheim, Norway
+    dates: Summer 2008
+    description: >
+      Implemented an adapter between MySQL and Yahoo’s internal vertical search
+      platform Vespa, together with several demo cases. Responsibilities
+      included the entire process, from design to completion.
+  - title: Scientific assistant
+    employer: ETH Zürich
+    location: Zürich, Switzerland
+    dates: Summer 2007
+    description: >
+      Implemented a finite volume method for solving the
+      convection/diffusion/reaction equation in Matlab. Also did some
+      post-processing of photonic crystal simulations. This was an IAESTE
+      internship.
+projects:
+  - title: 'eSushi: Prediction and optimization of fish hauls'
+    dates: Jun 2016 to Aug 2016
+    partners: [SINTEF, Norwegian seafood industry]
+    description: >
+      Aims to predict fish distribution in the Norwegian and Barents sea to
+      optimize catch rates for the fishing industry. I performed preliminary
+      statistical analysis to determine which variables explain the variation in
+      fish hauls, and which do not.
+  - title: 'HF-PFC: Hydraulic fracture (phase field code)'
+    dates: Jul 2015 to Aug 2016
+    partners: [SINTEF, Statoil]
+    description: >
+      A continuation of the FFG project (see below), this project aims to extend
+      the spline-based poroelasticity solver with fracture mechanics, and to
+      test the resulting product on real-scale problems and data. I implemented
+      a coupling between the poroelasticity solver from FFG and a phase field
+      solver for fracture. Presented results at the \nth{12} WCCM 2016.
+  - title: 'FFG: Fractures, flow and geomechanics'
+    dates: Dec 2014 to Jun 2015
+    description: >
+      This internally funded project aims to develop simulation tools for
+      coupled flow through porous media, elasticity and fracture. I implemented
+      a spline-based solver for poroelasticity problems. Presented results at
+      the \nth{3} IGA 2015.
+  - title: 'LS-TES: Large Scale Thermal Energy Storage'
+    dates: Sep 2014
+    partners: [SINTEF, NEST, NTNU]
+    description: >
+      Aims to develop effective storage solutions for thermal energy. The
+      project involves a coupled heat flow and thermal elasticity simulation. I
+      implemented a modular and fully parametrizable exact spline-based mesh
+      generator for heat reservoirs in various geometries.
+  - title: 'FSI-WT: Fluid-structure interaction for wind turbines'
+    dates: May 2014 to Dec 2014
+    partners: [SINTEF, NTNU, MET.no, FFI, Statoil, TrønderEnergi, Kjeller
+      Vindteknikk, Windsim]
+    description: >
+      Aims to develop robust and efficient numerical simulation tools for
+      coupled fluid-structure interaction simulation of full scale wind
+      turbines, with a particular emphasis on offshore wind power. I implemented
+      a modular, fully parametrizable and efficient spline-based mesh generator
+      for wind turbine blades. Presented results at the \nth{27} NSCM 2014 and
+      the \nth{12} Deepwind 2015.
+  - title: Aligulac
+    dates: Apr 2011 to now
+    description: >
+      The Aligulac project\footnote{{\tt http://aligulac.com/}}, is a historical
+      database of professional Starcraft II results and a Bayesian rating system
+      developed by myself, now maintained by a team of about 15 volunteers.
+publications:
+  - title: >
+      Wake modeling in complex terrain using a hybrid Eulerian-Lagrangian Split
+      Solver
+    authors: [F. G. Fuchs, A. Rasheed, M. Tabib, E. Fonn]
+    journal: Accepted to TORQUE 2016
+  - title: >
+      Spline based mesh generator for high fidelity simulation of flow around turbine blades
+    authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
+    journal: Accepted to Energy Procedia, 2015
+  - title: >
+      Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
+    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M. Mathisen,
+      K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+    journal: Accepted to Energy Procedia, 2015
+  - title: Strip theory approach for FSI-simulation of flow around turbine blades
+    authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, A. Rasheed, M. Tabib,
+      E. Fonn, T. V. Opstal]
+    journal: Submitted to Energy Procedia, 2015
+  - title: 3D beam element for FSI-simulation of flow around turbine blades
+    authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving,
+      K. Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+    journal: Submitted to Energy Procedia, 2015
+  - title: 3D CFD and FSI-simulation of flow around turbine blades
+    authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn,
+      K. M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
+    journal: Submitted to Energy Procedia, 2015
+  - title: Spline based mesh generator for wind turbine blades
+    authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
+    journal: >
+      Extended abstract, \nth{27} Nordic Seminar on Computational Mechanics,
+      2014
+  - title: Approximation in space and velocity for kinetic transport equations
+    authors: [E. Fonn]
+    journal: Dissertation, ETH Zürich, 2014
+    doi: 10.3929/ethz-a-0100602019
+  - title: >
+      Polar spectral scheme for the spatially homogeneous Boltzmann equation
+    authors: [E. Fonn, P. Grohs, R. Hiptmair]
+    journal: Technical report, SAM, ETH Zürich, 2014
+  - title: >
+      Hyperbolic cross approximation for the spatially homogeneous Boltzmann
+      equation
+    authors: [E. Fonn, P. Grohs, R. Hiptmair]
+    journal: IMA Journal of Numerical Analysis, 2014
+    doi: 10.1093/imanum/dru042
+presentations:
+  - title: >
+      On mixed isogeometric analysis of poroelasticity
+    authors: [E. Fonn, Y. W. Bekele, T. Kvamsdal, A. M. Kvarving, S. Nordal]
+    conference: \nth{12} World Congress of Computational Mechanics, 2016
+  - title: >
+      A mixed-order isogeometry solver for poroelasticity problems
+    authors: [E. Fonn, Y. W. Bekele, A. M. Kvarving, T. Kvamsdal, S. Nordal]
+    conference: \nth{3} International Conference on Isogeometric Analysis, 2015
+  - title: >
+      FSI of wind turbine blades
+    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving,
+      K. M. Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+    conference: >
+      \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
+  - title: Strip theory approach for FSI of offshore wind turbine blades
+    authors: [T. Kvamsdal, E. Fonn, A. M. Kvarving, K. M. Mathisen,
+      K. Nordanger, K. M. Okstad, T. V. Opstal, A. Rasheed, M. Tabib]
+    conference: >
+      \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
+  - title: Spline based mesh generator for wind turbine blades
+    authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
+    conference: >
+      \nth{27} Nordic Seminar on Computational Mechanics, 2014
+posters:
+  - title: Spline based mesh generator for high fidelity simulation of flow around turbine blades
+    authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
+    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M.
+      Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: Strip theory approach for FSI-simulation of flow around turbine blades
+    authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, K. Nordanger, A.
+      Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: 3D beam element for FSI-simulation of flow around turbine blades
+    authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving, K.
+      Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: 3D CFD and FSI-simulation of flow around turbine blades
+    authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn, K.
+      M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
+    conference: 12 Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+skills:
+  Programming languages: >
+    I am an expert in Python, and I am proficient in , C++ and Matlab, and some
+    lisp dialects. I have experience with Java, C\#, PHP and Javascript,
+    although this can be 5 to 10 years old. I dabble in Haskell and Rust.
+  Databases: >
+    I have used both PostgreSQL and MySQL in several projects, although I prefer
+    and have more experience with the former.
+  Other: >
+    A decade of experience running Linux distributions for personal use, and
+    several years of administering web- and compute servers.
+  Languages: >
+    Fluent Norwegian and English, reasonable German.
+awards:
+  - >
+    Winnie and Ragnar Mathisen’s award for best student of technology or
+    architecture in the 2009 graduating class at NTNU.
+  - >
+    The Norwegian Computing Centre’s award for best master thesis in mathematics
+    or ICT at NTNU in 2008/09.
+  - >
+    The Stubban award for the most promising master candidate in mathematics at
+    NTNU among the 2009 graduating class.
+assorted:
+  - >
+    Part organiser of the inaugural edition of KoMiN---a now annual conference
+    for mathematics students in Norway.
+  - >
+    Designed problems, graded answers and maintained the website for the Abel
+    Competition, the Norwegian mathematical olympiad for high school students.
+  - >
+    Driving force and main organiser of the first two editions of the Norwegian
+    Rubik’s Cube Championship.
+  - >
+    Former national record holder in Rubik’s Cube speedsolving and speedsolving
+    while blindfolded (single and multiple).
+trust:
+  - >
+    Webmaster\footnote{{\tt http://iaeste.ch/}} and board member for the IAESTE
+    Local Comittee Zürich for four years (2010-2013).
+  - >
+    Recognised by the World Cubing Association as a competition delegate.
+  - >
+    Webmaster and board member for the Student association Nabla\footnote{{\tt
+    http://nabla.no}} at NTNU for three years (2005-2007).
+social:
+  Github: http://github.com/TheBB
+  LinkedIn: http://www.linkedin.com/pub/eivind-fonn/5/364/67

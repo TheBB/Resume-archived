@@ -1,0 +1,9 @@
+% -*- mode: latex -*-
+
+\section{SOCIAL SITES}
+
+\begin{itemize}
+  \BLOCK{ for k, v in social.items() }
+    \item \VAR{k}: \texttt{\VAR{v}}
+  \BLOCK{ endfor }
+\end{itemize}

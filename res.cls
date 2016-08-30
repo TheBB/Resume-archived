@@ -555,7 +555,7 @@
 \def\employer#1{\def\@employer{\print@employer{#1}}}
 \def\location#1{\def\@location{\print@location{#1}}}
 \def\dates#1{\def\@dates{\print@dates{#1}}}
-\def\title#1{\def\@title{\print@title{#1}}}
+\def\title#1{\def\@title{\print@title{{\em #1}}}}
 
 \let\l@justify\raggedright
 \let\r@justify\raggedleft

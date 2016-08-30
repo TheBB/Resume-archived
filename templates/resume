@@ -1,0 +1,33 @@
+% -*- mode: latex -*-
+
+\documentclass[line,margin]{res}
+
+\newcommand{\zh}{Z\"{u}rich}
+\usepackage{charter}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[super]{nth}
+\usepackage[utf8]{inputenc}
+
+\newenvironment{absnopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+\begin{document}
+
+\name{\VAR{name}}
+\BLOCK{ if address }
+  \address{\VAR{address}}
+  \address{\VAR{phone}, \VAR{email}}
+\BLOCK{ endif }
+
+\begin{resume}
+
+  \BLOCK{ for block in blocks }
+    \BLOCK{ include block }
+  \BLOCK{ endfor }
+
+\end{resume}
+\end{document}

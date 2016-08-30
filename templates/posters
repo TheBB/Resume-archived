@@ -1,0 +1,14 @@
+% -*- mode: latex -*-
+
+\section{POSTERS}
+
+\BLOCK{ for e in posters }
+  \filbreak
+  \VAR{e.title|trim}. \\
+  \BLOCK{- for a in e.authors -}
+    \BLOCK{- if loop.first}\BLOCK{ elif loop.last } and \BLOCK{ else }, \BLOCK{ endif -}
+    \BLOCK{ if a == author }{\bf \VAR{a|soft_space}}\BLOCK{ else }\VAR{a|soft_space}\BLOCK{ endif }
+  \BLOCK{- endfor }.
+  {\em \VAR{ e.conference }}.
+  \filbreak
+\BLOCK{ endfor }

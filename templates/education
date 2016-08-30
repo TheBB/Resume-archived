@@ -1,0 +1,13 @@
+% -*- mode: latex -*-
+
+\section{EDUCATION}
+
+\BLOCK{ for e in education }
+  \filbreak
+  \title{\VAR{e.title}}
+  \employer{\VAR{e.employer}}
+  \location{\VAR{e.location}}
+  \dates{\VAR{e.dates}}
+  \begin{position}\VAR{e.description}\end{position}
+  \filbreak
+\BLOCK{ endfor }

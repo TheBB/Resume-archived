@@ -1,0 +1,9 @@
+% -*- mode: latex -*-
+
+\section{AWARDS}
+
+\begin{itemize}
+  \BLOCK{ for e in awards }
+    \item \VAR{e}
+  \BLOCK{ endfor }
+\end{itemize}

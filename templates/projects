@@ -1,0 +1,17 @@
+% -*- mode: latex -*-
+
+\section{PROJECTS}
+
+\BLOCK{ for e in projects }
+  \filbreak
+  {\em \VAR{e.title}} \hfill \VAR{e.dates} \\
+  \BLOCK{- if e.partners -}
+    {\small Partners:
+      \BLOCK{ for p in e.partners -}
+        \VAR{p}\BLOCK{ if not loop.last }, \BLOCK{ endif }
+      \BLOCK{- endfor }
+    } \\
+  \BLOCK{- endif }
+  \VAR{e.description}
+  \filbreak
+\BLOCK{ endfor }

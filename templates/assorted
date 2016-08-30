@@ -1,0 +1,9 @@
+% -*- mode: latex -*-
+
+\section{ASSORTED}
+
+\begin{itemize}
+  \BLOCK{ for e in assorted }
+    \item \VAR{e}
+  \BLOCK{ endfor }
+\end{itemize}

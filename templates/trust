@@ -1,0 +1,9 @@
+% -*- mode: latex -*-
+
+\section{POSITIONS OF TRUST}
+
+\begin{itemize}
+  \BLOCK{ for e in trust }
+    \item \VAR{e}
+  \BLOCK{ endfor }
+\end{itemize}

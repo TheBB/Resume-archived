@@ -1,0 +1,9 @@
+% -*- mode: latex -*-
+
+\section{SKILLS}
+
+\begin{itemize}
+  \BLOCK{ for k, v in skills.items() }
+    \item {\em \VAR{k}:} \VAR{v}
+  \BLOCK{ endfor }
+\end{itemize}

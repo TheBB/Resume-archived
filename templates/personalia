@@ -1,0 +1,14 @@
+% -*- mode: latex -*-
+
+\section{PERSONALIA}
+
+\begin{wrapfigure}{R}{0.13\textwidth}
+  \vspace{-0.6cm}
+  \includegraphics[width=1.5cm]{photo.png}
+\end{wrapfigure}
+
+I am a \VAR{age} year old Norwegian, born, grown up and with undergraduate
+studies in Trondheim, Norway. Moved to Zürich, Switzerland for graduate studies,
+then back to Trondheim for work in applied mathematics research. I never stop
+learning new things. Interested in mathematics, computing, programming, open
+source software, photography, chess, geopolitics and books.

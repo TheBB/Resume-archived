@@ -1,6 +1,2 @@
-*.log
-*.aux
-*.dvi
-*.fls
-*.synctex.gz
-*.fdb_latexmk
+/__pycache__
+*.pdf
