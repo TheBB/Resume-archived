@@ -81,6 +81,12 @@ projects:
       test the resulting product on real-scale problems and data. I implemented
       a coupling between the poroelasticity solver from FFG and a phase field
       solver for fracture. Presented results at the \nth{12} WCCM 2016.
+  - title: Spacemacs
+    dates: Jul 2015 to now
+    description: >
+      Spacemacs is a comprehensive, user-friendly configuration for the
+      programming text editor Emacs, averaging about 300 new installations per
+      day. I am the second maintainer.
   - title: 'FFG: Fractures, flow and geomechanics'
     dates: Dec 2014 to Jun 2015
     description: >
@@ -119,6 +125,9 @@ publications:
       Solver
     authors: [F. G. Fuchs, A. Rasheed, M. Tabib, E. Fonn]
     journal: Accepted to TORQUE 2016
+  - title: On Mixed Isogeometric Analysis of Poroelasticity
+    authors: [Y. W. Bekele, E. Fonn, T. Kvamsdal, A. M. Kvarving, S. Nordal]
+    journal: Submitted to Computers and Structures
   - title: >
       Spline based mesh generator for high fidelity simulation of flow around turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
