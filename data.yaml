@@ -131,24 +131,14 @@ publications:
   - title: >
       Spline based mesh generator for high fidelity simulation of flow around turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
-    journal: Accepted to Energy Procedia, 2015
+    journal: Energy Procedia, 2015, Vol. 80, pp. 294--301
+    doi: 10.1016/j.egypro.2015.11.433
   - title: >
       Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
     authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M. Mathisen,
       K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
-    journal: Accepted to Energy Procedia, 2015
-  - title: Strip theory approach for FSI-simulation of flow around turbine blades
-    authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, A. Rasheed, M. Tabib,
-      E. Fonn, T. V. Opstal]
-    journal: Submitted to Energy Procedia, 2015
-  - title: 3D beam element for FSI-simulation of flow around turbine blades
-    authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving,
-      K. Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
-    journal: Submitted to Energy Procedia, 2015
-  - title: 3D CFD and FSI-simulation of flow around turbine blades
-    authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn,
-      K. M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
-    journal: Submitted to Energy Procedia, 2015
+    journal: Energy Procedia, 2015, Vol. 80, pp. 442--449
+    doi: 10.1016/j.egypro.2015.11.448
   - title: Spline based mesh generator for wind turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
     journal: >
@@ -166,7 +156,7 @@ publications:
       Hyperbolic cross approximation for the spatially homogeneous Boltzmann
       equation
     authors: [E. Fonn, P. Grohs, R. Hiptmair]
-    journal: IMA Journal of Numerical Analysis, 2014
+    journal: IMA Journal of Numerical Analysis, 2014, Vol. 35 (4), pp. 1533--1567
     doi: 10.1093/imanum/dru042
 presentations:
   - title: >
