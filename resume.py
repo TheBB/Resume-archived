@@ -50,7 +50,7 @@ parser.add_argument('--debug', action='store_true')
 parser.add_argument('--brief', dest='type', action='store_const', const='brief')
 parser.add_argument('--full', dest='type', action='store_const', const='full')
 parser.add_argument('--publist', dest='type', action='store_const', const='publist')
-parser.add_argument('--exclude', nargs='+', type=str)
+parser.add_argument('--exclude', nargs='+', type=str, default=[])
 parser.add_argument('--out', '-o', type=str, default='resume.pdf')
 args = parser.parse_args()
 args.type = args.type or 'full'
