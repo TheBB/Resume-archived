@@ -1,9 +1,9 @@
 % -*- mode: latex -*-
 
+\filbreak
 \section{POSTERS}
 
 \BLOCK{ for e in posters }
-  \filbreak
   \VAR{e.title|trim}. \\
   \BLOCK{- for a in e.authors -}
     \BLOCK{- if loop.first}\BLOCK{ elif loop.last } and \BLOCK{ else }, \BLOCK{ endif -}
@@ -12,3 +12,4 @@
   {\em \VAR{ e.conference }}.
   \filbreak
 \BLOCK{ endfor }
+\filbreak

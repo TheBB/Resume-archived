@@ -17,11 +17,10 @@ experience:
   - title: Research Scientist
     employer: SINTEF Applied Mathematics
     location: Trondheim, Norway
-    dates: May 2015 to now
+    dates: May 2014 to now
     description: >
-      Project-based work on a variety of things (see own section). Mostly
-      involved in large-scale parallel simulations using the isogeometric
-      analysis variety of finite element methods.
+      Project-based work on a variety of topics (see own section). Mostly
+      involved in numerical simulations, data analysis and machine learning.
   - title: Associate professor
     employer: NTNU
     location: Trondheim, Norway
@@ -37,94 +36,108 @@ experience:
       Solving high-dimensional kinetic transport equations, attempting to bridge
       the “curse of dimensionality”. Implementation work in Matlab, Python and
       C++. Includes a 40\% teaching load.
-  - title: Software engineer
-    employer: Jeeves ERP
-    location: Trondheim, Norway
-    dates: Summer 2009
-    description: >
-      Implemented a translation tool built on Google Translate, which can read
-      and write a number of different formats (such as Microsoft Word and
-      database tables), with some facilities for correcting erroneous
-      translations and learning.
-  - title: Software engineer
-    employer: Yahoo! Technologies
-    location: Trondheim, Norway
-    dates: Summer 2008
-    description: >
-      Implemented an adapter between MySQL and Yahoo’s internal vertical search
-      platform Vespa, together with several demo cases. Responsibilities
-      included the entire process, from design to completion.
-  - title: Scientific assistant
-    employer: ETH Zürich
-    location: Zürich, Switzerland
-    dates: Summer 2007
-    description: >
-      Implemented a finite volume method for solving the
-      convection/diffusion/reaction equation in Matlab. Also did some
-      post-processing of photonic crystal simulations. This was an IAESTE
-      internship.
+  # - title: Software engineer
+  #   employer: Jeeves ERP
+  #   location: Trondheim, Norway
+  #   dates: Summer 2009
+  #   description: >
+  #     Implemented a translation tool built on Google Translate, which can read
+  #     and write a number of different formats (such as Microsoft Word and
+  #     database tables), with some facilities for correcting erroneous
+  #     translations and learning.
+  # - title: Software engineer
+  #   employer: Yahoo! Technologies
+  #   location: Trondheim, Norway
+  #   dates: Summer 2008
+  #   description: >
+  #     Implemented an adapter between MySQL and Yahoo’s internal vertical search
+  #     platform Vespa, together with several demo cases. Responsibilities
+  #     included the entire process, from design to completion.
+  # - title: Scientific assistant
+  #   employer: ETH Zürich
+  #   location: Zürich, Switzerland
+  #   dates: Summer 2007
+  #   description: >
+  #     Implemented a finite volume method for solving the
+  #     convection/diffusion/reaction equation in Matlab. Also did some
+  #     post-processing of photonic crystal simulations. This was an IAESTE
+  #     internship.
 projects:
+  - title: 'OPWIND: Wind farm optimization'
+    dates: Jan 2018 to present
+    partners: [SINTEF, NTNU, Vattenfall, Vestas, Norwegian Meteorological Institute, Kongsberg]
+    description: >
+      Simulation of wakes behind wind turbines in real time using reduced basis methods and
+      other dimensional reduction techniques.
+  - title: "E3WM: Water network analysis"
+    dates: Jan 2017 to Aug 2017
+    partners: [SINTEF, Oslo VAV]
+    description: >
+      Analysis of pressure and flow time series from the Oslo water distribution network, with the
+      aim of recovering missing data and detecting faults.
+  - title: 'Living Lab: Zero Emission Buildings'
+    dates: Fall 2016
+    partners: [SINTEF, NTNU]
+    description: >
+      Analysis of humidity production time series from apartments, to attempt to discover
+      correlations with respect to climate, number of inhabitants, and room type.
   - title: 'eSushi: Prediction and optimization of fish hauls'
     dates: Jun 2016 to Aug 2016
     partners: [SINTEF, Norwegian seafood industry]
     description: >
-      Aims to predict fish distribution in the Norwegian and Barents sea to
-      optimize catch rates for the fishing industry. I performed preliminary
-      statistical analysis to determine which variables explain the variation in
-      fish hauls, and which do not.
-  - title: 'HF-PFC: Hydraulic fracture (phase field code)'
+      Predict fish distribution in the Norwegian and Barents sea to optimize catch rates for the
+      fishing industry.
+  - title: "HF-PFC: Hydraulic fracture (phase field code)"
     dates: Jul 2015 to Aug 2016
     partners: [SINTEF, Statoil]
     description: >
-      A continuation of the FFG project (see below), this project aims to extend
-      the spline-based poroelasticity solver with fracture mechanics, and to
-      test the resulting product on real-scale problems and data. I implemented
-      a coupling between the poroelasticity solver from FFG and a phase field
-      solver for fracture. Presented results at the \nth{12} WCCM 2016.
+      A continuation of the FFG project (see below), this project aimed to extend the spline-based
+      poroelasticity solver with fracture mechanics, and to test the resulting product on real-scale
+      problems and data.
   - title: Spacemacs
-    dates: Jul 2015 to now
+    dates: Jul 2015 to Dec 2017
     description: >
-      Spacemacs is a comprehensive, user-friendly configuration for the
-      programming text editor Emacs, averaging about 300 new installations per
-      day. I am the second maintainer.
+      Spacemacs is a comprehensive, user-friendly configuration for the programming text editor
+      Emacs, averaging about 300 new installations per day. I was the second maintainer.
   - title: 'FFG: Fractures, flow and geomechanics'
     dates: Dec 2014 to Jun 2015
     description: >
-      This internally funded project aims to develop simulation tools for
-      coupled flow through porous media, elasticity and fracture. I implemented
-      a spline-based solver for poroelasticity problems. Presented results at
-      the \nth{3} IGA 2015.
+      This internally funded project aimed to develop simulation tools for coupled flow through
+      porous media, elasticity and fracture.
   - title: 'LS-TES: Large Scale Thermal Energy Storage'
     dates: Sep 2014
     partners: [SINTEF, NEST, NTNU]
     description: >
-      Aims to develop effective storage solutions for thermal energy. The
-      project involves a coupled heat flow and thermal elasticity simulation. I
-      implemented a modular and fully parametrizable exact spline-based mesh
-      generator for heat reservoirs in various geometries.
+      Aimed to develop effective storage solutions for thermal energy. The project involveddd
+      coupled heat flow and thermal elasticity simulation.
   - title: 'FSI-WT: Fluid-structure interaction for wind turbines'
     dates: May 2014 to Dec 2014
-    partners: [SINTEF, NTNU, MET.no, FFI, Statoil, TrønderEnergi, Kjeller
-      Vindteknikk, Windsim]
+    partners: [SINTEF, NTNU, MET.no, FFI, Statoil, TrønderEnergi, Kjeller Vindteknikk, Windsim]
     description: >
-      Aims to develop robust and efficient numerical simulation tools for
-      coupled fluid-structure interaction simulation of full scale wind
-      turbines, with a particular emphasis on offshore wind power. I implemented
-      a modular, fully parametrizable and efficient spline-based mesh generator
-      for wind turbine blades. Presented results at the \nth{27} NSCM 2014 and
-      the \nth{12} Deepwind 2015.
+      Aimed to develop robust and efficient numerical simulation tools for coupled fluid-structure
+      interaction simulation of full scale wind turbines, with a particular emphasis on offshore
+      wind power.
   - title: Aligulac
     dates: Apr 2011 to now
     description: >
-      The Aligulac project\footnote{{\tt http://aligulac.com/}}, is a historical
-      database of professional Starcraft II results and a Bayesian rating system
-      developed by myself, now maintained by a team of about 15 volunteers.
+      The Aligulac project\footnote{{\tt http://aligulac.com/}}, is a historical database of
+      professional Starcraft II results and a Bayesian rating system developed by myself, now
+      maintained by a team of about 15 volunteers.
 publications:
+  - title: Fast divergence-conforming reduced basis methods for steady Navier-Stokes flow
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
+    journal: Under review at CMAME
+  - title: "Near wake region of an industrial scale wind turbine: comparing LES-ALM with LES-SMI simulations using data mining (POD)"
+    authors: [M. Tabib, M. S. Siddiqui, E. Fonn, A. Rasheed, T. Kvamsdal]
+    journal: "Journal of Physics: Conference Series"
+  - title: On interactions between wind turbines and the marine boundary layer
+    authors: [M. S. Siddiqui, A. Rasheed, M. Tabib, E. Fonn, T. Kvamsdal]
+    journal: ASME 2017
   - title: >
       Wake modeling in complex terrain using a hybrid Eulerian-Lagrangian Split
       Solver
     authors: [F. G. Fuchs, A. Rasheed, M. Tabib, E. Fonn]
-    journal: Accepted to TORQUE 2016
+    journal: TORQUE 2016
   - title: On Mixed Isogeometric Analysis of Poroelasticity
     authors: [Y. W. Bekele, E. Fonn, T. Kvamsdal, A. M. Kvarving, S. Nordal]
     journal: Submitted to Computers and Structures
@@ -159,54 +172,75 @@ publications:
     journal: IMA Journal of Numerical Analysis, 2014, Vol. 35 (4), pp. 1533--1567
     doi: 10.1093/imanum/dru042
 presentations:
+  - title: Reduced Order Models for Divergence-Conforming Isogeometric Flow Simulations
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
+    conference: \nth{13} World Congress of Computational Mechanics, WCCM 2018
+  - title: Fast Divergence-Conforming Reduced Basis Methods for Steady Navier-Stokes Flow
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
+    conference: \nth{6} European Congress for Computational Mechanics, ECCM 2018
+  - title: Fast Divergence-Conforming Reduced Basis Methods for Steady Navier-Stokes Flow
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
+    conference: \nth{3} Conference on Isogeometric Analysis and Applications, IGAA 2018
+  - title: Spline-based Compatible Reduced Basis Methods for Flow Problems
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
+    conference: \nth{5} International Conference on Isogeometric Analysis, IGA 2017
+  - title: A step towards reduced order modelling of flow characterized by wakes using Proper Orthogonal Decomposition
+    authors: [E. Fonn, A. Rasheed, M. Tabib, M. S. Siddiqui, T. Kvamsdal]
+    conference: \nth{36} International Conference on Ocean, Offshore \& Arctic Engineering, OMAE 2017
   - title: >
       On mixed isogeometric analysis of poroelasticity
     authors: [E. Fonn, Y. W. Bekele, T. Kvamsdal, A. M. Kvarving, S. Nordal]
-    conference: \nth{12} World Congress of Computational Mechanics, 2016
+    conference: \nth{12} World Congress of Computational Mechanics, WCCM 2016
   - title: >
       A mixed-order isogeometry solver for poroelasticity problems
     authors: [E. Fonn, Y. W. Bekele, A. M. Kvarving, T. Kvamsdal, S. Nordal]
-    conference: \nth{3} International Conference on Isogeometric Analysis, 2015
-  - title: >
-      FSI of wind turbine blades
-    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving,
-      K. M. Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
-    conference: >
-      \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
-  - title: Strip theory approach for FSI of offshore wind turbine blades
-    authors: [T. Kvamsdal, E. Fonn, A. M. Kvarving, K. M. Mathisen,
-      K. Nordanger, K. M. Okstad, T. V. Opstal, A. Rasheed, M. Tabib]
-    conference: >
-      \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
+    conference: \nth{3} International Conference on Isogeometric Analysis, IGA 2015
+  # - title: >
+  #     FSI of wind turbine blades
+  #   authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving,
+  #     K. M. Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+  #   conference: >
+  #     \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
+  # - title: Strip theory approach for FSI of offshore wind turbine blades
+  #   authors: [T. Kvamsdal, E. Fonn, A. M. Kvarving, K. M. Mathisen,
+  #     K. Nordanger, K. M. Okstad, T. V. Opstal, A. Rasheed, M. Tabib]
+  #   conference: >
+  #     \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
   - title: Spline based mesh generator for wind turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
     conference: >
       \nth{27} Nordic Seminar on Computational Mechanics, 2014
 posters:
+  - title: Fast divergence-conforming reduced order models for flow
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed, M. S. Siddiqui]
+    conference: \nth{15} Deep Sea Offshore Wind R\&D Conference, Deepwind 2018
+  - title: A step towards reduced order modelling of flow characterized by wakes using Proper Orthogonal Decomposition
+    authors: [E. Fonn, M. Tabib, A. Rasheed, T. Kvamsdal]
+    conference: \nth{14} Deep Sea Offshore Wind R\&D Conference, Deepwind 2017
   - title: Spline based mesh generator for high fidelity simulation of flow around turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
     conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  - title: Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
-    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M.
-      Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
-    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  - title: Strip theory approach for FSI-simulation of flow around turbine blades
-    authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, K. Nordanger, A.
-      Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
-    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  - title: 3D beam element for FSI-simulation of flow around turbine blades
-    authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving, K.
-      Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
-    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  - title: 3D CFD and FSI-simulation of flow around turbine blades
-    authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn, K.
-      M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
-    conference: 12 Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  # - title: Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
+  #   authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M.
+  #     Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+  #   conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  # - title: Strip theory approach for FSI-simulation of flow around turbine blades
+  #   authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, K. Nordanger, A.
+  #     Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+  #   conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  # - title: 3D beam element for FSI-simulation of flow around turbine blades
+  #   authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving, K.
+  #     Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+  #   conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  # - title: 3D CFD and FSI-simulation of flow around turbine blades
+  #   authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn, K.
+  #     M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
+  #   conference: 12 Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
 skills:
   Programming languages: >
-    I am an expert in Python, and I am proficient in , C++ and Matlab, and some
-    lisp dialects. I have experience with Java, C\#, PHP and Javascript,
-    although this can be 5 to 10 years old. I dabble in Haskell and Rust.
+    I am an expert in Python, and I am proficient in Julia, C++ and Matlab, and some lisp
+    dialects. I have experience with Java, C\#, PHP and Javascript, although this can be 5 to 10
+    years old. I dabble in Haskell and Rust.
   Databases: >
     I have used both PostgreSQL and MySQL in several projects, although I prefer
     and have more experience with the former.
