@@ -63,6 +63,14 @@ experience:
   #     post-processing of photonic crystal simulations. This was an IAESTE
   #     internship.
 projects:
+  # OpenFrac
+  - title: 'COSMO: Combined Optimization and Scheduling for Marine Operations'
+    dates: Jan 2019 to Jun 2020
+    partners: [SINTEF, Equinor]
+    description: >-
+      Development of schedule optimization software and frontend for
+      large-scale marine installation operations of e.g. offshore wind
+      farms.
   - title: 'OPWIND: Wind farm optimization'
     dates: Jan 2018 to present
     partners: [SINTEF, NTNU, Vattenfall, Vestas, Norwegian Meteorological Institute, Kongsberg]
@@ -124,15 +132,29 @@ projects:
       professional Starcraft II results and a Bayesian rating system developed by myself, now
       maintained by a team of about 15 volunteers.
 publications:
+  # Deepwind 2020 paper
   - title: Fast divergence-conforming reduced basis methods for steady Navier-Stokes flow
     authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
-    journal: Under review at CMAME
+    journal: CMAME Volume 346, 1 April 2019, Pages 486-512
+    doi: https://doi.org/10.1016/j.cma.2018.11.038
+  - title: >-
+      Finite-Volume High-Fidelity Simulation Combined with
+      Finite-Element-Based Reduced-Order Modeling of Incompressible
+      Flow Problems
+    authors: [M. S. Siddiqui, E. Fonn, T. Kvamsdal, A. Rasheed]
+    journal: Energies 2019
+    doi: https://doi.org/10.3390/en12071271
   - title: "Near wake region of an industrial scale wind turbine: comparing LES-ALM with LES-SMI simulations using data mining (POD)"
     authors: [M. Tabib, M. S. Siddiqui, E. Fonn, A. Rasheed, T. Kvamsdal]
     journal: "Journal of Physics: Conference Series"
   - title: On interactions between wind turbines and the marine boundary layer
     authors: [M. S. Siddiqui, A. Rasheed, M. Tabib, E. Fonn, T. Kvamsdal]
     journal: ASME 2017
+  - title: >-
+      A step towards reduced order modelling of flow characterized by wakes using Proper Orthogonal Decomposition
+    authors: [E. Fonn, M. Tabib, M. S. Siddiqui, A. Rasheed, T. Kvamsdal]
+    journal: Volume 137, October 2017, Pages 452-459
+    doi: https://doi.org/10.1016/j.egypro.2017.10.369
   - title: >
       Wake modeling in complex terrain using a hybrid Eulerian-Lagrangian Split
       Solver
@@ -175,7 +197,7 @@ presentations:
   - title: Reduced Order Models for Divergence-Conforming Isogeometric Flow Simulations
     authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
     conference: \nth{13} World Congress of Computational Mechanics, WCCM 2018
-  - title: Fast Divergence-Conforming Reduced Basis Methods for Steady Navier-Stokes Flow
+  - title: Fast Divergence-Conforming Reduced Basis Methods for Steady Naviery-yStokes Flow
     authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
     conference: \nth{6} European Congress for Computational Mechanics, ECCM 2018
   - title: Fast Divergence-Conforming Reduced Basis Methods for Steady Navier-Stokes Flow
@@ -187,30 +209,28 @@ presentations:
   - title: A step towards reduced order modelling of flow characterized by wakes using Proper Orthogonal Decomposition
     authors: [E. Fonn, A. Rasheed, M. Tabib, M. S. Siddiqui, T. Kvamsdal]
     conference: \nth{36} International Conference on Ocean, Offshore \& Arctic Engineering, OMAE 2017
-  - title: >
-      On mixed isogeometric analysis of poroelasticity
+  - title: On mixed isogeometric analysis of poroelasticity
     authors: [E. Fonn, Y. W. Bekele, T. Kvamsdal, A. M. Kvarving, S. Nordal]
     conference: \nth{12} World Congress of Computational Mechanics, WCCM 2016
-  - title: >
-      A mixed-order isogeometry solver for poroelasticity problems
+  - title: A mixed-order isogeometry solver for poroelasticity problems
     authors: [E. Fonn, Y. W. Bekele, A. M. Kvarving, T. Kvamsdal, S. Nordal]
     conference: \nth{3} International Conference on Isogeometric Analysis, IGA 2015
-  # - title: >
-  #     FSI of wind turbine blades
-  #   authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving,
-  #     K. M. Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
-  #   conference: >
-  #     \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
-  # - title: Strip theory approach for FSI of offshore wind turbine blades
-  #   authors: [T. Kvamsdal, E. Fonn, A. M. Kvarving, K. M. Mathisen,
-  #     K. Nordanger, K. M. Okstad, T. V. Opstal, A. Rasheed, M. Tabib]
-  #   conference: >
-  #     \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
+  - title: FSI of wind turbine blades
+    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M. Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+    conference: \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
+  - title: Strip theory approach for FSI of offshore wind turbine blades
+    authors: [T. Kvamsdal, E. Fonn, A. M. Kvarving, K. M. Mathisen, K. Nordanger, K. M. Okstad, T. V. Opstal, A. Rasheed, M. Tabib]
+    conference: \nth{6} International Conference on Coupled Problems in Science and Engineering, 2015
   - title: Spline based mesh generator for wind turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
-    conference: >
-      \nth{27} Nordic Seminar on Computational Mechanics, 2014
+    conference: \nth{27} Nordic Seminar on Computational Mechanics, 2014
 posters:
+  - title: Fast divergence-conforming reduced basis methods for stationary and transient flow prolems
+    authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed]
+    conference: \nth{17} Deep Sea Offshore Wind R\&D Conference, Deepwind 2020
+  - title: Splipy - Spline modelling in Python
+    authors: [K. A. Johannessen, E. Fonn]
+    conference: \nth{17} Deep Sea Offshore Wind R\&D Conference, Deepwind 2020
   - title: Fast divergence-conforming reduced order models for flow
     authors: [E. Fonn, E. H. van Brummelen, T. Kvamsdal, A. Rasheed, M. S. Siddiqui]
     conference: \nth{15} Deep Sea Offshore Wind R\&D Conference, Deepwind 2018
@@ -220,27 +240,26 @@ posters:
   - title: Spline based mesh generator for high fidelity simulation of flow around turbine blades
     authors: [E. Fonn, A. Rasheed, A. M. Kvarving, T. Kvamsdal]
     conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  # - title: Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
-  #   authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M.
-  #     Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
-  #   conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  # - title: Strip theory approach for FSI-simulation of flow around turbine blades
-  #   authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, K. Nordanger, A.
-  #     Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
-  #   conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  # - title: 3D beam element for FSI-simulation of flow around turbine blades
-  #   authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving, K.
-  #     Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
-  #   conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
-  # - title: 3D CFD and FSI-simulation of flow around turbine blades
-  #   authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn, K.
-  #     M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
-  #   conference: 12 Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: Isogeometric methods for CFD and FSI-simulation of flow around turbine blades
+    authors: [T. V. Opstal, E. Fonn, T. Kvamsdal, A. M. Kvarving, K. M.
+      Mathisen, K. Nordanger, K. M. Okstad, A. Rasheed, M. Tabib]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: Strip theory approach for FSI-simulation of flow around turbine blades
+    authors: [K. Nordanger, T. Kvamsdal, A. M. Kvarving, K. Nordanger, A.
+      Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: 3D beam element for FSI-simulation of flow around turbine blades
+    authors: [K. M. Okstad, K. M. Mathisen, T. Kvamsdal, A. M. Kvarving, K.
+      Nordanger, A. Rasheed, M. Tabib, E. Fonn, T. V. Opstal]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
+  - title: 3D CFD and FSI-simulation of flow around turbine blades
+    authors: [A. M. Kvarving, T. Kvamsdal, A. Rasheed, K. M. Okstad, E. Fonn, K.
+      M. Mathisen, K. Nordanger, T. V. Opstal, M. Tabib]
+    conference: \nth{12} Deep Sea Offshore Wind R\&D Conference, Deepwind 2015
 skills:
   Programming languages: >
     I am an expert in Python, and I am proficient in Julia, C++ and Matlab, and some lisp
-    dialects. I have experience with Java, C\#, PHP and Javascript, although this can be 5 to 10
-    years old. I dabble in Haskell and Rust.
+    dialects. I have experience with Rust, Java, C\#, PHP and Javascript.
   Databases: >
     I have used both PostgreSQL and MySQL in several projects, although I prefer
     and have more experience with the former.

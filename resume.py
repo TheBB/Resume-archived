@@ -63,7 +63,7 @@ context = {
 
 if args.type != 'publist':
     context.update({
-        'address': 'Elstar 6, 6708-LZ Wageningen',
+        'address': 'Simon Vestdijkstraat 10, 6708-NW Wageningen',
         'phone': '+47 41 44 98 89',
         'email': 'evfonn@gmail.com'
     })
